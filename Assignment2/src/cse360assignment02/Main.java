@@ -5,8 +5,9 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		AddingMachine num = new AddingMachine();
+		num.add(4);
+		num.subtract(2);
 		num.add(5);
-		num.subtract(3);
 		System.out.println(num.toString());
 	}
 
